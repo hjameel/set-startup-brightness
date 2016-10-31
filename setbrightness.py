@@ -2,7 +2,7 @@
 
 import dbus
 
-BRIGHTNESS = 60
+BRIGHTNESS = 40
 
 def set_brightness(brightness):
     session_bus = dbus.SessionBus()
